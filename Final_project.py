@@ -22,7 +22,7 @@ mydb = sql.connect(
 mycursor = mydb.cursor(buffered=True)
 
 # BUILDING CONNECTION WITH YOUTUBE API
-api_key = "AIzaSyCuRNBLnGy8fazSKEnlgBYAhFFrUt89XAE"
+api_key = "API Key"
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 def channel_exists(channel_id):
